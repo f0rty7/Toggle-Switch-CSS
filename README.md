@@ -44,6 +44,7 @@ Now we need to change the background color and position of circle when the check
 
 > .checkbox:checked + .switch::after {  
 > left : 20px; }
+
 > .checkbox:checked + .switch {  
 > background-color: #7983ff;}
 
