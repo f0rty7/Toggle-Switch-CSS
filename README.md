@@ -20,7 +20,8 @@ Now we need to change the label position as relative , so that we can make use o
 > background-color: #eee;   
 > border-radius: 20px; }
 
-Now the toggle switch looks like
+Now the toggle switch looks like.
+
 ![image](https://miro.medium.com/max/152/1*pGtWie1IeILVCikQpVrc9Q.png)
 
 Let’s add the circle ⭕️ to the toggle switch using `::after` pseudo class.
@@ -35,7 +36,8 @@ Let’s add the circle ⭕️ to the toggle switch using `::after` pseudo class.
 >  top: 1px; // TO GIVE AN EFFECT OF CIRCLE INSIDE SWITCH.  
 >  left: 1px;  transition: all 0.3s;}
 
-Now the switch looks like
+Now the switch looks like.
+
 ![image](https://miro.medium.com/max/152/1*93KYoh3icaZpR-LV4IL6mw.png)
 
 Now we need to change the background color and position of circle when the checkbox is selected , for that let’s use `:checked` property on input. if the input box is checked then change the background color of label and change the position of the circle.
@@ -45,7 +47,8 @@ Now we need to change the background color and position of circle when the check
 > .checkbox:checked + .switch {  
 > background-color: #7983ff;}
 
-Now when the checkbox is checked the input looks like
+Now when the checkbox is checked the input looks like.
+
 ![image](https://miro.medium.com/max/152/1*5Qt_bSkxGd1uDOFjjs4bPQ.png)
 
 Let’s hide the checkbox
